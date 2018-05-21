@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Things I've Learned</title>
+	<meta charset="utf-8">
+
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form action = "https://sv.wikipedia.org/wiki/Portal:Huvudsida">
+	
+	<label for = "firstName">First Name:</label>
+	<input id = "firstName" type="text" name="first" required>
+
+	<label for = "lastName" >Last Name:</label>
+	<input id = "lastName" type="text" name="last" required>
+
+	<div>
+		
+	<label for = "gender" >Male:</label>
+	<input id = "gender" type="radio" name="genderType" value = "Male">
+
+	<label for = "gender" >Female:</label>
+	<input id = "gender" type="radio" name="genderType" value = "Female">
+
+	<label for = "gender" >Other:</label>
+	<input id = "gender" type="radio" name="genderType" value = "Other">
+
+	</div>
+
+
+	<div>
+		
+	<label for = "emailAdress">Email:</label>
+	<input id = "emailAdress" type="email" name="email" placeholder = "your email" required>
+
+	<label for = "password">Password:</label>
+	<input  id = "password" type="password" name="password" pattern=".{5,10}" required title="5 to 10 characters" placeholder = "your password">
+
+	</div>
+
+	<div>
+	<label>Birthday:
+	<select name = "birthdayMonth">
+		<option>Month</option>
+		<option>May</option>
+		<option>June</option>
+		<option>July </option>	
+	</select>
+
+	<select name = "birthdayDay">
+		<option>Day</option>
+		<option>12</option>
+		<option>13</option>
+		<option>14</option>
+	</select>
+
+	<select name = "birthdayYear">
+		<option>Year</option>
+		<option>1993</option>
+		<option>1994</option>
+		<option>1995 </option>
+	</select>
+
+	</label>
+	</div>
+
+	<div>
+	
+	<label for = "agreed">I accept the terms and conditions</label>
+	<input id = "agreed" type="checkbox" name="checked" required>
+
+
+	</div>
+	<input type="submit" name="Submit">
+
+</form>
+
+
+
+
+</body>
+</html>
+
